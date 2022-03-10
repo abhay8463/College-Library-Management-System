@@ -1,0 +1,15 @@
+input[type=text] {
+  margin-top:3%;
+  margin-left:5%;
+  margin-bottom: 0%;
+  width: 130px;
+  height: 23px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+  width: 75%;
+  height:3%;
+}
